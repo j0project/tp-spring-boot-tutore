@@ -9,7 +9,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.ManyToMany;
 
-@Entity
+@Entity(name = "app_user_roles")
 public class UserRole implements Serializable {
 
 	private static final long serialVersionUID = 1L;

@@ -14,7 +14,7 @@ import javax.persistence.EnumType;
 import javax.persistence.Enumerated;
 import javax.persistence.FetchType;
 
-@Entity
+@Entity(name = "produit")
 public class Produit  implements Serializable {
 
 	private static final long serialVersionUID = 1L;

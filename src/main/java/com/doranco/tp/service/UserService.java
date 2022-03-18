@@ -23,14 +23,15 @@ public class UserService {
 	{
 		return userRepository.findAll();	
 	}
-	
+	/*
 	public Optional<User> searchById(String username)
 	{
-		return userRepository.(username);
+		return userRepository.findById(username);
 	}
 	
 	public void delete(String username)
 	{
 		userRepository.deleteById(username);	
 	}
+	*/
 }
