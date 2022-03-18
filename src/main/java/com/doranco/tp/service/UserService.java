@@ -23,7 +23,7 @@ public class UserService {
 	{
 		return userRepository.findAll();	
 	}
-	/*
+	
 	public Optional<User> searchById(String username)
 	{
 		return userRepository.findById(username);
@@ -33,5 +33,5 @@ public class UserService {
 	{
 		userRepository.deleteById(username);	
 	}
-	*/
+	
 }
